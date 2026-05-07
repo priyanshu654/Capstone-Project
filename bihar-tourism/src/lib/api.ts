@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Destination, Festival, EcoSite } from '../types';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://capstone-project-szpy.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
